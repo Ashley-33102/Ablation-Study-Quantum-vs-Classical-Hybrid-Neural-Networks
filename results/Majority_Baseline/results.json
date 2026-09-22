@@ -1,0 +1,5 @@
+{
+  "model": "Majority Baseline",
+  "majority_class": 1,
+  "test_accuracy": 0.5366430260047281
+}

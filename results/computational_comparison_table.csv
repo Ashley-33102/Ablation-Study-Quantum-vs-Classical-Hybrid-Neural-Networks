@@ -1,0 +1,5 @@
+Model,Parameters,Avg Training Time (sec),Avg Best Epoch,Avg Total Epochs
+NN,108801,41.0,3.4,8.4
+CNN,8009,108.6,5.0,10.0
+CNN + Classical,8029,229.5,17.6,20.8
+CNN + Quantum,8029,508.0,23.2,27.4

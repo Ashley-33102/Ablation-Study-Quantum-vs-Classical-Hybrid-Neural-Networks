@@ -1,0 +1,52 @@
+[
+  {
+    "run": 1,
+    "seed": 42,
+    "best_epoch": 5,
+    "total_epochs_run": 10,
+    "training_time_sec": 48.79911160469055,
+    "n_params": 108801,
+    "final_train_loss": 7.759549613582305e-06,
+    "final_val_loss": 0.007131821553232939
+  },
+  {
+    "run": 2,
+    "seed": 123,
+    "best_epoch": 5,
+    "total_epochs_run": 10,
+    "training_time_sec": 48.641212701797485,
+    "n_params": 108801,
+    "final_train_loss": 1.1641804572389489e-05,
+    "final_val_loss": 0.002115444095257578
+  },
+  {
+    "run": 3,
+    "seed": 2024,
+    "best_epoch": 3,
+    "total_epochs_run": 8,
+    "training_time_sec": 39.426743268966675,
+    "n_params": 108801,
+    "final_train_loss": 0.004601651602470052,
+    "final_val_loss": 0.006125184056952741
+  },
+  {
+    "run": 4,
+    "seed": 7,
+    "best_epoch": 3,
+    "total_epochs_run": 8,
+    "training_time_sec": 39.22101092338562,
+    "n_params": 108801,
+    "final_train_loss": 1.3024523276955901e-05,
+    "final_val_loss": 0.003871440784882355
+  },
+  {
+    "run": 5,
+    "seed": 99,
+    "best_epoch": 1,
+    "total_epochs_run": 6,
+    "training_time_sec": 28.992594480514526,
+    "n_params": 108801,
+    "final_train_loss": 0.00037973142204391085,
+    "final_val_loss": 0.00439745715846944
+  }
+]

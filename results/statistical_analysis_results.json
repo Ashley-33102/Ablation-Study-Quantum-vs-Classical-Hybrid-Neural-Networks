@@ -1,0 +1,30 @@
+{
+  "primary_test": "Wilcoxon signed-rank test, CNN+Classical vs CNN+Quantum (Section 25, pre-registered)",
+  "sample_size": 5,
+  "note": "Exploratory evidence per Section 25 - n=5 cannot reach significance even in the best case (minimum two-sided Wilcoxon p-value at n=5 is 0.0625)",
+  "accuracy": {
+    "classical_values": [
+      0.9995271867612292,
+      0.9995271867612292,
+      0.9995271867612292,
+      1.0,
+      0.9995271867612292
+    ],
+    "quantum_values": [
+      0.998581560283688,
+      1.0,
+      0.9990543735224586,
+      0.9990543735224586,
+      0.9995271867612292
+    ],
+    "wilcoxon_statistic": 2.0,
+    "wilcoxon_p_value": 0.375,
+    "mean_difference_classical_minus_quantum": 0.00037825059101646017,
+    "ci_95_lower": -0.0003872017894604495,
+    "ci_95_upper": 0.0011437029714933698,
+    "ci_method": "Student's t-interval, df=4 (locked in advance per Section 25)",
+    "ci_includes_zero": true
+  },
+  "conclusion": "No statistically distinguishable difference between CNN+Classical and CNN+Quantum on accuracy, F1, MCC, or recall at n=5 (all Wilcoxon p-values 0.25-0.375, all CIs include zero). This directly answers the primary pre-registered research question (Ablation Question D): replacing the parameter-matched classical head with a quantum head did not produce a detectable change in final predictive performance on this task.",
+  "important_caveat": "This finding is specific to: binary (0 vs 1) MNIST classification, a 4-qubit/2-layer circuit, classical CPU simulation (not real quantum hardware), and n=5 runs. It should NOT be generalized beyond this scope (Section 29 - 'What We Will NOT Do')."
+}
