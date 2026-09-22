@@ -24,9 +24,9 @@
 
 This project investigates a pre-specified research question:
 
-> Does replacing a classical, parameter-matched neural network head with an equally-sized quantum head produce a detectable performance difference on binary MNIST classification (digits 0 vs 1)?
+> Does replacing a classical neural network head with a quantum head of approximately matched parameter count produce a detectable performance difference on binary MNIST classification (digits 0 vs 1)?
 
-Rather than simply "trying quantum ML," the project is designed as a **controlled ablation study**. Four architectures share the same CNN backbone wherever possible, so that any observed difference can be attributed to the *specific* component under test rather than to confounding factors such as additional capacity, different data, or different training conditions.
+Rather than simply "trying quantum ML," the project is designed as a controlled ablation study. Four architectures share the same CNN backbone wherever possible, so that any observed difference can be attributed to the specific component under test rather than to confounding factors such as additional capacity, different data, or different training conditions.
 
 ## Models Compared
 
